@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <!-- <link rel="stylesheet" href="script.js"> -->
+</head>
+<body>
+    <h1>Todo</h1>
+    <input type="text" id="todoInput">
+    <button onclick="addTodo()"  >Add</button>
+
+     <ul id="todoList" ></ul>
+
+     <script src="script.js" ></script>
+       
+     
+
+
+
+</body>
+    <!-- Shorter version -->
+     <!-- <script>
+let t = [];
+const add = () => {
+  i.value && (t.push({id:Date.now(), v:i.value}), i.value="", l.innerHTML = t.map(x=>`<li>${x.v} <button onclick="del(${x.id})">X</button></li>`).join(""));
+}
+const del = id => (t = t.filter(x=>x.id!==id), l.innerHTML = t.map(x=>`<li>${x.v} <button onclick="del(${x.id})">X</button></li>`).join(""));
+</script> -->
+
+</html>
