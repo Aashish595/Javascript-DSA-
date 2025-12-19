@@ -9,3 +9,4 @@ function reverseWords(arr){
 
 
 console.log(reverseWords(["Hello", "World"]));    
+console.log(reverseWords(["Hello World", "I love JavaScript", " FAANG Interview "]));    
